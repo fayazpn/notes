@@ -1,0 +1,2 @@
+# wd
+ learning stuff
