@@ -1,0 +1,49 @@
+- Primitive Types
+	- undefined - does not have a value yet
+	- string
+	- number
+	- boolean
+	- object
+	- symbol
+	- Type like behaviour
+		- undeclared
+		- null
+		- function - sub-type of object type
+		- arrays -  sub-type of object type
+		- bigint
+	- typeof(null) - returns object
+	- typeof function(){} -  returns object
+	- typeof array - returns object
+	- typeof BigInt(42) - returns bigint
+- undefined vs undecalred
+	- undefined - there is variable with no value in it currently
+	- undeclared - there is no variable nor value
+	- uninitialised (TDZ ) -block scoped variables that is not going to get initialised to undefiend
+- NaN vs isNaN
+	- invalid number
+	- NaN with any math op returns NaN
+	- NaN is not equal to NaN 
+	- isNaN coerses to NaN and retuns boolean value - isNaN()
+	- Number.isNaN does not coerse to NaN, but simply returns true or false
+- toString
+	- "-0".toString => 0
+	- ToString(object) => ToPrimitive(string hint) -> toString => valueOf
+	- "" -> 0
+- toNumber
+	- "" - 0
+	- "0" - 0
+	- "-0" - -0
+	- false, null - 0
+	- undefined - NaN
+- ToBoolean
+	- ""
+	- 0, -0 , null, NaN, false, undefined - false
+- Coercion
+	- operator overloading - + if any of the operand is string, it is getting turned into string
+	- +string - invokes toNumber (unary op)
+- Boxing
+	- studentNameElem.value.length > 0 -> js making it object for us
+	- [[Coercion]]
+- Object.is(value1, value2) -> returns true or false
+	- difference from == is that this method does not coerce (ex. '' == false) unlike == which coerce if types are different
+	- 

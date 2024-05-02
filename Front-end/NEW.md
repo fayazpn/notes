@@ -1,0 +1,15 @@
+
+- Automating creating and returning objects with **Object.create()**
+- Its a function call with `new` keyword which in definition has `this` variable used to assign properties - In this case, the *this* variable points to the function that is used in right side of *new*
+- ![[new.png]]
+- ![[new-this.png]]To put reusable functionalities in proto property of this new object, we should understand that functions are both functions and objects
+- It can accessed as objects with `.` also run it with `()`
+- So the object creation function also has `prototype` property which is just a empty object
+- To store reused functions that should be present in every object created with new keyword, the way it should be stored in `proto` property is using `userCreator.prototype.functionName`
+- the `this` inside the newly being created objects execution context is actually an object, which is initially created empty, but only has `proto` property pointing to the function object creators `.prototype` object (also assigns values to the object property which is passed as arguments to the object creator function)
+- Then the `this` is returned automatically to the namespace which uses the `new` keyword before the object creator function
+- ![[new-this.png]]
+- if you run the object creation function without new, the `this` will actually init variable in global scope
+- to make it more predictable that it is a object creation function and to reduce adding functionalities to `prototype` property we use syntactic sugar `class` which will achieve solution to our both the problem
+- ![[new.png]]
+- constructor assigns the properties, the methods defined inside the class puts it to the prototype of the original object creator function

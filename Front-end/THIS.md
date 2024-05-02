@@ -1,0 +1,7 @@
+- it is an implicit parameter which when used within an objects method, or property it attaches or referes to the object in the left side of the `.` (There are some exceptions)
+- **Object.prototype** are property of object which contains a lot of useful properties and methiods, all the objects points to this up the **proto** chain in the end, contains methods such as (hasOwnProperty) (the __proto__ of this one points to 'null')
+- All objects by default its proto points to **Object.prototype** by default, when we use **Object.create** method we are taking control of where proto points to, it will also has proto property which will point to **Object.prototype** in the end
+- Special case, here the function inside the method will point the ‘this’ variable to the global object, so we use paradigm such as this = that
+- ![[Untitled.png]]Arrow functions are automatically are lexically scoped, that is the this variable will point to where the function was created (object or global or function etc)
+- ![[lexical-scope.png]]
+- if you write increment with arrow function it will fall apart because its this assignment will not be where it is ran, but where its stored (lexically/statically scoped)

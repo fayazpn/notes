@@ -1,0 +1,16 @@
+- ES6 feature
+- XHR/Fetch are two pronged function, which will start a network request in the browser, and in JS it will return a placeholder object (promise)
+- The promise object will have 2 properties **value** property and **onFullfilled (hidden)** property
+- Right after the network request is completed the value received from the server is put into the **value** property of the object
+- the **onFullfilled** will contain the function that should be triggered to run when **value** is filled. And the **value** will be auto inserted into that **onFullfilled** function as arguement.
+- **.then** function pushes the function into the **onFullfilled** array.
+- Rules
+	- on filling the **value** property the **onFullfilled** function is not placed into the call-stack, it is placed in the Microtask queue
+	- Event loop decides to put it in the call stack from both microtask queue/ callback queue
+	-  once call stack is empty, event loops checks the microtask queue and runs the function
+	- once the micro task queue is empty, it goes onto the callback queue and runs rest of the function
+	-  Any function that is wired to auto run in js on completion of promise is placed in the micro task queue
+	- Rest of the functions that is run in the browser such as timer is placed in the callback queue
+	- If the microtask queue is getting filled in recursively, the event loop would not come out of the microtask queue until its empty. When micro task queue is empty is only when the event loops moves onto callback queue. This is called “starving” the callback queue.
+	-  **catch** will push functionalities to array **onRejection** run on encountering error or second arg of **.then**
+	- if error takes place, functionalities on **onFullfilled** will not be run.

@@ -1,0 +1,16 @@
+- In JS functions does not retain memory, but it can be done by a method called function closures
+- When a function is returned from another function, the surrounding scope is returned along with the returned function, so declared values are still available to the returned function, in a way the values are still ‘cached’.
+- This cached values are stored in ‘backpack’ of the returned function in a hidden property called *[ [ scope ] ]*, which is not accessible to us except through the function only.
+-  Scope is a concept of what data is available in a given line of code.
+-  Lexically Scoped - Access to all the data that is available where the function is defined physically.
+- When a function that is returned from another function is a stored in a namespace, when it is called, a new execution context is created, when a namespace is encountered it is first checked in the execution context of the executing function, when it is not found it checks the ‘backpack’ first before it checks the execution context of the function below it in the call-stack.
+- We can harness this functionality to store values that needs to be remembered in the next run of the function.
+-  C.O.V.E - Close over variable environment
+- P.L.S.R.D - Persistant Lexically/Static scoped data
+- Multiple closure instances have independent separate backpack.
+-  Use Cases
+    - limit function - Function that would remember the high score
+    - memoization - Can memoize an expensive operation so that it does not have to calculated later on
+    - iterators/generators - iterators such as forEach will remember the current index, function generators are functions that can remember which line and which value when stopped executing and can resume the execution later
+    - module pattern - Using this pattern, the code can be modularized so we can use same name-space and avoid global polluting of variables
+    - async js - closures are used in async js
