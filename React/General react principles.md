@@ -1,0 +1,5 @@
+- *React.createElement* is what is working underneath of all the components written in JSX
+- *useState* is hook that is defined which is ran on every render. **do not** update the state inside conditional statements, it can lead to bugs
+- *useEffect* is hook used to run side effects such as calling api endpoints, browser apis etc
+	- Add dependencies to the *dependancy array* to re-render and run the useEffect again
+- 

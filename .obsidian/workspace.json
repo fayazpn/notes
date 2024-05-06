@@ -11,8 +11,12 @@
             "id": "4404a148f2eacf4f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "React/General react principles.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "React/General react principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "React/General react principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "React/General react principles.md"
+              }
             }
           }
         ]
@@ -140,6 +148,16 @@
   },
   "active": "4404a148f2eacf4f",
   "lastOpenFiles": [
+    "Untitled.md",
+    "React/General react principles.md",
+    "React/Re-render sources.md",
+    "Front-end/Types.md",
+    "Front-end/THIS.md",
+    "Front-end/Promises.md",
+    "Front-end/Javascript.md",
+    "Front-end/Closures.md",
+    "Front-end/Classes and OOP.md",
+    "Front-end/Async JS.md",
     "wd/React/React composition techniques.md",
     "wd/React/Re-render sources.md",
     "wd/React",
@@ -162,25 +180,16 @@
     "wd/Front-end",
     "wd/README.md",
     "wd",
-    "React/Re-render sources.md",
     "React/React composition techniques.md",
-    "Front-end/Types.md",
     "Front-end/Coercion.md",
     "Front-end/NEW.md",
-    "Front-end/Classes and OOP.md",
-    "Front-end/Javascript.md",
-    "Front-end/THIS.md",
     "Front-end/images/Untitled.png",
-    "Front-end/Promises.md",
-    "Front-end/Async JS.md",
-    "Front-end/Closures.md",
     "Screenshot 2023-11-15 at 12.41.18 PM.jpg.md",
     "Front-end/images/Moving state down.jpg",
     "React",
     "Front-end/images/class.png",
     "Front-end/images/new-this.png",
     "Front-end/images",
-    "scope.md",
     "Front-end"
   ]
 }
