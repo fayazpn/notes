@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/General react principles.md",
+                "file": "React/React composition techniques.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/General react principles.md",
+                "file": "React/React composition techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/General react principles.md",
+                "file": "React/React composition techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/General react principles.md"
+                "file": "React/React composition techniques.md"
               }
             }
           }
@@ -148,13 +148,14 @@
   },
   "active": "4404a148f2eacf4f",
   "lastOpenFiles": [
-    "Untitled.md",
-    "React/General react principles.md",
     "React/Re-render sources.md",
-    "Front-end/Types.md",
-    "Front-end/THIS.md",
-    "Front-end/Promises.md",
+    "React/General react principles.md",
+    "React/React composition techniques.md",
     "Front-end/Javascript.md",
+    "Front-end/THIS.md",
+    "Untitled.md",
+    "Front-end/Types.md",
+    "Front-end/Promises.md",
     "Front-end/Closures.md",
     "Front-end/Classes and OOP.md",
     "Front-end/Async JS.md",
@@ -180,7 +181,6 @@
     "wd/Front-end",
     "wd/README.md",
     "wd",
-    "React/React composition techniques.md",
     "Front-end/Coercion.md",
     "Front-end/NEW.md",
     "Front-end/images/Untitled.png",

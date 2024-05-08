@@ -5,6 +5,8 @@
 - The values are first stored in the name-spaces, function definitions are directly stored in the memory.
 - On calling of the function, new execution context is created and storing of values of takes place therein too, the arguments are saved as new ‘variables’ in the newly created execution context.
 - The return value of the function is stored in the global memory if its called in global execution context, else to the corresponding execution context.
+- static vs private
+	- static is used inside the class definition itself, where as private properties can be access inside the class instance
 - Call stack - when a new function is called it is pushed in the call stack, if there is a function called inside this function it is then pushed on top, once the function is returned it is then removed or ‘popped’ from the stack.
 - In JS functions are first class objects, which means they can be passed as arguments into other functions and returned as value from functions.
 - HOF - are functions which takes other functions as its parameters OR if it returns another function.
