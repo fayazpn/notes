@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React/React composition techniques.md",
+                "file": "Front-end/React/React composition techniques.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af54de38e6b8f025",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Front-end/JS/Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89d5cbd9f546ffee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Front-end/JS/THIS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4fb6370d3ae2dac8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Front-end/Web performance/General performance.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React/React composition techniques.md",
+                "file": "Front-end/Web performance/General performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React/React composition techniques.md",
+                "file": "Front-end/Web performance/General performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React/React composition techniques.md"
+                "file": "Front-end/Web performance/General performance.md"
               }
             }
           }
@@ -146,19 +183,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4404a148f2eacf4f",
+  "active": "4fb6370d3ae2dac8",
   "lastOpenFiles": [
-    "React/Re-render sources.md",
-    "React/General react principles.md",
-    "React/React composition techniques.md",
-    "Front-end/Javascript.md",
-    "Front-end/THIS.md",
-    "Untitled.md",
-    "Front-end/Types.md",
-    "Front-end/Promises.md",
-    "Front-end/Closures.md",
-    "Front-end/Classes and OOP.md",
-    "Front-end/Async JS.md",
+    "Front-end/JS/THIS.md",
+    "Front-end/Web performance/General performance.md",
+    "Front-end/Web performance",
+    "Front-end/Untitled.canvas",
+    "Front-end/JS/Promises.md",
+    "Untitled",
+    "Front-end/JS/Types.md",
+    "Front-end/React/React composition techniques.md",
+    "Front-end/JS",
+    "Front-end/React/Re-render sources.md",
+    "Front-end/React/General react principles.md",
+    "Front-end/JS/Javascript.md",
+    "Front-end/JS/Closures.md",
+    "Front-end/JS/Classes and OOP.md",
+    "Front-end/JS/Async JS.md",
     "wd/React/React composition techniques.md",
     "wd/React/Re-render sources.md",
     "wd/React",
@@ -181,12 +222,11 @@
     "wd/Front-end",
     "wd/README.md",
     "wd",
-    "Front-end/Coercion.md",
-    "Front-end/NEW.md",
+    "Front-end/JS/Coercion.md",
+    "Front-end/JS/NEW.md",
     "Front-end/images/Untitled.png",
-    "Screenshot 2023-11-15 at 12.41.18 PM.jpg.md",
     "Front-end/images/Moving state down.jpg",
-    "React",
+    "Front-end/React",
     "Front-end/images/class.png",
     "Front-end/images/new-this.png",
     "Front-end/images",
