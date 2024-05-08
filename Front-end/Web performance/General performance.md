@@ -16,7 +16,7 @@
 		- check original trace in GLH
 		- async js script 
 			- download it when u get to it, process later (can introduce weird race conditions)
-			- defer will download it whenever or parallel, never execute it until everythings done
+			- defer will download it whenever or parallel, never execute it until everything's done
 			- move scripts that are not needed to the bottom of the html file
 			- load lazy when user only sees (image)
 			- can lazy load anything that has source attrr
