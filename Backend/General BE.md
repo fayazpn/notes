@@ -1,0 +1,5 @@
+- `http` - module is build into node along with packages like `fs`
+- Every server has *request* and *response*
+- `res.writeHead` - has meta data on *status*, *content-type*
+- streams - faster and memory efficient than loading a whole file into the memory and sending
+- VPS (virtual private server) - Digital ocean droplets, AWS EC2 etc

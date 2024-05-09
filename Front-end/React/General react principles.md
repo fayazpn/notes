@@ -5,9 +5,10 @@
 - Error boundary
 	- getDerivedStateFromError - is static method that can be called on the constructor
 - Portals
-	- Seperate mount point, for things such as modals
-	- Create seperate mount point
-	-  `import React, { useEffect, useRef } from "react"; import { createPortal } from "react-dom"; const Modal = ({ children }) => { const elRef = useRef(null); if (!elRef.current) { elRef.current = document.createElement("div"); } useEffect(() => { const modalRoot = document.getElementById("modal"); modalRoot.appendChild(elRef.current); return () => modalRoot.removeChild(elRef.current); }, []); return createPortal(<div>{children}</div>, elRef.current); }; export default Modal;`
+	- Separate mount point, for things such as modals
+	- Create separate mount point
+	`import React, { useEffect, useRef } from "react"; import { createPortal } from "react-dom"; const Modal = ({ children }) => { const elRef = useRef(null); if (!elRef.current) { elRef.current = document.createElement("div"); } useEffect(() => { const modalRoot = document.getElementById("modal"); modalRoot.appendChild(elRef.current); return () => modalRoot.removeChild(elRef.current); }, []); return createPortal(<div>{children}</div>, elRef.current); }; export default Modal;`
+	
 	- useEffect cleanup is used to remove the modal when the component is unmounted
 	- useRef is used to get refernce of the modal to mount and unmount appropriatly
-	- `return createPortal(<div>{children}</div>, elRef.current);` this is used to render the modal in seperate mount point
+	- `return createPortal(<div>{children}</div>, elRef.current);` this is used to render the modal in separate mount point

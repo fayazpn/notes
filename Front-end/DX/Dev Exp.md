@@ -1,0 +1,7 @@
+- Reducing yarn install times
+	- Resolve sem-ver versions of duplicate packages in yarn
+		- [[https://www.developerway.com/posts/webpack-and-yarn-magic-against-duplicates-in-bundles]]
+	- Mono-repo troubles
+	- Instead of nuking the node_modules, just delete the *.yarn-integrity* file in *node_modules* and run **yarn install**
+		- **rm -rf node_modules && yarn install**
+- 
