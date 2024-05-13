@@ -4,47 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "339e6ebc3bcaa171",
+        "id": "76c52612b01d4831",
         "type": "tabs",
         "children": [
           {
-            "id": "4404a148f2eacf4f",
+            "id": "ce1431bebc858740",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Front-end/React/React composition techniques.md",
+                "file": "Backend/General BE.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "af54de38e6b8f025",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Front-end/JS/Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89d5cbd9f546ffee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Front-end/React/General react principles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae7daffe1ec9f6e1",
+            "id": "588a4fe845d48eaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,15 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ae7daffe1ec9f6e1",
+  "active": "588a4fe845d48eaa",
   "lastOpenFiles": [
     "Backend/Vim & Linux.md",
     "Backend/General BE.md",
+    "Backend/Digital Ocean.md",
     "Front-end/DX/Dev Exp.md",
+    "Front-end/React/React composition techniques.md",
+    "Front-end/JS/Types.md",
+    "Front-end/React/General react principles.md",
     "Front-end/JS/Untitled.md",
     "Front-end/DX",
     "Untitled",
-    "Front-end/React/General react principles.md",
     "Front-end/React/Re-render sources.md",
     "Front-end/CSS/Flex & Grid.md",
     "Backend",
@@ -202,8 +181,6 @@
     "Front-end/Web performance",
     "Front-end/Untitled.canvas",
     "Front-end/JS/Promises.md",
-    "Front-end/JS/Types.md",
-    "Front-end/React/React composition techniques.md",
     "Front-end/JS",
     "Front-end/JS/Javascript.md",
     "Front-end/JS/Closures.md",
@@ -226,7 +203,6 @@
     "wd/Front-end/Javascript.md",
     "wd/Front-end/Coercion.md",
     "wd/Front-end/Closures.md",
-    "wd/Front-end/Classes and OOP.md",
     "wd/Front-end",
     "wd",
     "Front-end/images/Untitled.png",

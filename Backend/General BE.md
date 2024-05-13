@@ -2,4 +2,28 @@
 - Every server has *request* and *response*
 - `res.writeHead` - has meta data on *status*, *content-type*
 - streams - faster and memory efficient than loading a whole file into the memory and sending
-- VPS (virtual private server) - Digital ocean droplets, AWS EC2 etc
+- VPS (virtual private server) - Digital ocean droplets, AWS EC2 etc.
+-  Server Security
+	- username/password - weak
+	- ssh (secure socket shell) - best
+		- hashing -
+			- md5 has rainbow table as every word is hashed the same (33)
+			-  SHA1 (44)  - same
+			- SHA256 (256) - harder as more characters are involved in making rainbow table
+		- slat - randomness added tot he og input file
+		- public key - anyone can encrypt message and send it to me using the public key
+		- private key - the message can only be decrypted using the private key of the user
+		- server keeps their own private key which enables secure two way communication
+		- after adding to keychain you don't have to specify the identity file when trying to ssh into remote server
+		- `AddKeysToAgent yes`
+		- `UseKeychain yes`
+		- `IdentityFile ~/.ssh/fayp`
+		
+	- crypto-graphy
+		- bcrypty - md5 is used for
+		- md5 is not crypto secure - it used for validation of the file (run file on md5 on our end to check if its tampered or not)
+		- bitcoin - SHA256
+		- Ethereum - Keccak - 256
+		- private key is asymmetric encryption which is one way, which results in a longer key, hence why it is expensive method of encryption
+	- [[Backend/Digital Ocean]]
+	- 
