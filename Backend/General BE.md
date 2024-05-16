@@ -19,11 +19,37 @@
 		- `UseKeychain yes`
 		- `IdentityFile ~/.ssh/fayp`
 		
-	- crypto-graphy
-		- bcrypty - md5 is used for
+	- cryptography
+		- bcrypt - md5 is used for
 		- md5 is not crypto secure - it used for validation of the file (run file on md5 on our end to check if its tampered or not)
 		- bitcoin - SHA256
 		- Ethereum - Keccak - 256
 		- private key is asymmetric encryption which is one way, which results in a longer key, hence why it is expensive method of encryption
 	- [[Backend/Digital Ocean]]
-	- 
+	- Internet
+		- iPv4 - 32 bits
+		- ipV6 - 128 bits
+		- TCP - Transmission Control Protocol
+			- most packets are TCP in internet
+			- Most reliable connection
+			- Has handshake protocol
+			- Keeps resending until all packets are transferred
+			- More bandwidth
+			- Webpages & other fields
+		- UDP - User Datagram Protocol
+			- Not the most reliable
+			- Just sends and does not care if its fully completed or not
+			- Streaming & real time data, where losing few packets are okay
+		- ICMP - internet control message protocol
+			- Stuff like `ping` , `traceroutes` etc
+		- Packet - smallest unit of data that is transferred over internet
+		- DNS - domain name system
+			- Nameserver - hold DNS records to translate domain name to ip addresses
+			-  Computer -> Browser -> Nameserver -> returns server IP -> establish connection with IP
+			- `nslookup` - lookup the name servers for the domain
+			- `dig` - DNS lookup utitlity
+			- one website can be hosted in multiple other servers and load balanced, so they will have  multiple ip addresses
+		- A record - maps name to ip address
+		- CNAME - name to name
+		- tld (Top level domain) - actual domain (.com, .dev)
+		-  registrar - namecheap, godaddy etc

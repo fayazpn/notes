@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "76c52612b01d4831",
+        "id": "da7688d1ab0e3be4",
         "type": "tabs",
         "children": [
           {
-            "id": "ce1431bebc858740",
+            "id": "06954248657149b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/General BE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "588a4fe845d48eaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/General BE.md",
+                "file": "Backend/Digital Ocean.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/General BE.md",
+                "file": "Backend/Digital Ocean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/General BE.md",
+                "file": "Backend/Digital Ocean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/General BE.md"
+                "file": "Backend/Digital Ocean.md"
               }
             }
           }
@@ -159,20 +146,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "588a4fe845d48eaa",
+  "active": "06954248657149b6",
   "lastOpenFiles": [
-    "Backend/Vim & Linux.md",
     "Backend/General BE.md",
+    "Backend/Vim & Linux.md",
+    "Front-end/CSS/Flex & Grid.md",
     "Backend/Digital Ocean.md",
+    "DS & Algo/Arrays and hashing/Two Sum.md",
+    "DS & Algo/Arrays and hashing/Arrays and hashing.md",
+    "DS & Algo/Arrays and hashing/Valid Anagram.md",
+    "DS & Algo/Untitled/Untitled.md",
+    "DS & Algo/Arrays and hashing",
+    "Front-end/JS/Async JS.md",
     "Front-end/DX/Dev Exp.md",
+    "README.md",
+    "DS & Algo",
     "Front-end/React/React composition techniques.md",
     "Front-end/JS/Types.md",
     "Front-end/React/General react principles.md",
     "Front-end/JS/Untitled.md",
     "Front-end/DX",
-    "Untitled",
     "Front-end/React/Re-render sources.md",
-    "Front-end/CSS/Flex & Grid.md",
     "Backend",
     "Front-end/JS/THIS.md",
     "Front-end/images/lexical-scope.png",
@@ -185,7 +179,6 @@
     "Front-end/JS/Javascript.md",
     "Front-end/JS/Closures.md",
     "Front-end/JS/Classes and OOP.md",
-    "Front-end/JS/Async JS.md",
     "wd/React/React composition techniques.md",
     "wd/React/Re-render sources.md",
     "wd/React",
@@ -198,13 +191,7 @@
     "wd/Front-end/images",
     "wd/Front-end/Types.md",
     "wd/Front-end/THIS.md",
-    "wd/Front-end/Promises.md",
-    "wd/Front-end/NEW.md",
-    "wd/Front-end/Javascript.md",
-    "wd/Front-end/Coercion.md",
-    "wd/Front-end/Closures.md",
     "wd/Front-end",
-    "wd",
     "Front-end/images/Untitled.png",
     "Front-end/images/Moving state down.jpg",
     "Front-end/images/class.png"
