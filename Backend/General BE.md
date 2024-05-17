@@ -10,7 +10,7 @@
 			- md5 has rainbow table as every word is hashed the same (33)
 			-  SHA1 (44)  - same
 			- SHA256 (256) - harder as more characters are involved in making rainbow table
-		- slat - randomness added tot he og input file
+		- slat - randomness added to the og input file
 		- public key - anyone can encrypt message and send it to me using the public key
 		- private key - the message can only be decrypted using the private key of the user
 		- server keeps their own private key which enables secure two way communication
@@ -49,7 +49,8 @@
 			- `nslookup` - lookup the name servers for the domain
 			- `dig` - DNS lookup utitlity
 			- one website can be hosted in multiple other servers and load balanced, so they will have  multiple ip addresses
-		- A record - maps name to ip address
+		- A record - maps name to ip address (@ & www - reps root)
 		- CNAME - name to name
 		- tld (Top level domain) - actual domain (.com, .dev)
 		-  registrar - namecheap, godaddy etc
+	- [[Backend/New Server Config]]

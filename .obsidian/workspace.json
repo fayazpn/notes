@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "da7688d1ab0e3be4",
+        "id": "723efc18ec94b786",
         "type": "tabs",
         "children": [
           {
-            "id": "06954248657149b6",
+            "id": "4f32d1f922114f28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Digital Ocean.md",
+                "file": "Backend/General BE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f154a7c31ed8bd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend/General BE.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/Digital Ocean.md",
+                "file": "Backend/General BE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/Digital Ocean.md",
+                "file": "Backend/General BE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/Digital Ocean.md"
+                "file": "Backend/General BE.md"
               }
             }
           }
@@ -146,15 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06954248657149b6",
+  "active": "8f154a7c31ed8bd8",
   "lastOpenFiles": [
+    "Backend/New Server Config.md",
     "Backend/General BE.md",
     "Backend/Vim & Linux.md",
-    "Front-end/CSS/Flex & Grid.md",
     "Backend/Digital Ocean.md",
-    "DS & Algo/Arrays and hashing/Two Sum.md",
     "DS & Algo/Arrays and hashing/Arrays and hashing.md",
+    "DS & Algo/Arrays and hashing/Contains Duplicate.md",
+    "DS & Algo/Arrays and hashing/Two Sum.md",
     "DS & Algo/Arrays and hashing/Valid Anagram.md",
+    "Front-end/CSS/Flex & Grid.md",
     "DS & Algo/Untitled/Untitled.md",
     "DS & Algo/Arrays and hashing",
     "Front-end/JS/Async JS.md",
@@ -189,8 +204,6 @@
     "wd/Front-end/images/Untitled.png",
     "wd/Front-end/images/Moving state down.jpg",
     "wd/Front-end/images",
-    "wd/Front-end/Types.md",
-    "wd/Front-end/THIS.md",
     "wd/Front-end",
     "Front-end/images/Untitled.png",
     "Front-end/images/Moving state down.jpg",

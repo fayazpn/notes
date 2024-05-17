@@ -10,4 +10,6 @@
 - To move nameservers from registrar to our server in DO 
 - Add nameservers `ns1.digitalocean.com` (2&3)
 - Add custom DNS in namecheap all the nameservers above
-- 
+	- ns1, ns2, ns3
+	- We are moving dns from registrar to DO           
+	- We can do email forwarding for free
