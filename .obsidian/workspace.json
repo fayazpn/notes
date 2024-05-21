@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "723efc18ec94b786",
+        "id": "1c53357f02baeabe",
         "type": "tabs",
         "children": [
           {
-            "id": "4f32d1f922114f28",
+            "id": "e7dbb59c24015da5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/General BE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f154a7c31ed8bd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/General BE.md",
+                "file": "5 - Templates/Main Note.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/General BE.md",
+                "file": "5 - Templates/Main Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/General BE.md",
+                "file": "5 - Templates/Main Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/General BE.md"
+                "file": "5 - Templates/Main Note.md"
               }
             }
           }
@@ -159,52 +146,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f154a7c31ed8bd8",
+  "active": "e7dbb59c24015da5",
   "lastOpenFiles": [
-    "Backend/New Server Config.md",
     "Backend/General BE.md",
-    "Backend/Vim & Linux.md",
     "Backend/Digital Ocean.md",
+    "6 - Zettelkasten/Fake Note.md",
+    "5 - Templates/Main Note.md",
+    "6 - Zettelkasten",
+    "5 - Templates",
+    "4 - Indexes",
+    "1 - Rough Notes/Reminders.md",
+    "3 - Tags",
+    "2 - Source Material/Other",
+    "2 - Source Material/Books",
+    "2 - Source Material/Videos",
+    "2 - Source Material/Blogs",
+    "2 - Source Material",
+    "1 - Rough Notes/Things to do today.md",
+    "README.md",
+    "Untitled 1",
+    "Backend/New Server Config.md",
+    "Backend/Vim & Linux.md",
     "DS & Algo/Arrays and hashing/Arrays and hashing.md",
     "DS & Algo/Arrays and hashing/Contains Duplicate.md",
     "DS & Algo/Arrays and hashing/Two Sum.md",
     "DS & Algo/Arrays and hashing/Valid Anagram.md",
     "Front-end/CSS/Flex & Grid.md",
     "DS & Algo/Untitled/Untitled.md",
-    "DS & Algo/Arrays and hashing",
     "Front-end/JS/Async JS.md",
     "Front-end/DX/Dev Exp.md",
-    "README.md",
-    "DS & Algo",
     "Front-end/React/React composition techniques.md",
     "Front-end/JS/Types.md",
     "Front-end/React/General react principles.md",
     "Front-end/JS/Untitled.md",
-    "Front-end/DX",
     "Front-end/React/Re-render sources.md",
-    "Backend",
     "Front-end/JS/THIS.md",
     "Front-end/images/lexical-scope.png",
     "Front-end/Web performance/General performance.md",
-    "Front-end/CSS",
-    "Front-end/Web performance",
     "Front-end/Untitled.canvas",
     "Front-end/JS/Promises.md",
-    "Front-end/JS",
     "Front-end/JS/Javascript.md",
-    "Front-end/JS/Closures.md",
-    "Front-end/JS/Classes and OOP.md",
-    "wd/React/React composition techniques.md",
-    "wd/React/Re-render sources.md",
-    "wd/React",
     "wd/Front-end/images/new.png",
     "wd/Front-end/images/new-this.png",
     "wd/Front-end/images/lexical-scope.png",
     "wd/Front-end/images/class.png",
     "wd/Front-end/images/Untitled.png",
     "wd/Front-end/images/Moving state down.jpg",
-    "wd/Front-end/images",
-    "wd/Front-end",
     "Front-end/images/Untitled.png",
     "Front-end/images/Moving state down.jpg",
     "Front-end/images/class.png"
