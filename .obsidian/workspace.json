@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1c53357f02baeabe",
+        "id": "d0d003b9a628a181",
         "type": "tabs",
         "children": [
           {
-            "id": "e7dbb59c24015da5",
+            "id": "a674f0d84d9a18bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 - Templates/Main Note.md",
+                "file": "Backend/General BE.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5 - Templates/Main Note.md",
+                "file": "Backend/General BE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5 - Templates/Main Note.md",
+                "file": "Backend/General BE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5 - Templates/Main Note.md"
+                "file": "Backend/General BE.md"
               }
             }
           }
@@ -146,25 +146,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7dbb59c24015da5",
+  "active": "a674f0d84d9a18bb",
   "lastOpenFiles": [
-    "Backend/General BE.md",
-    "Backend/Digital Ocean.md",
+    "1 - Rough Notes/Nest and mongo.md",
+    "1 - Rough Notes/Things to do today.md",
+    "1 - Rough Notes/Reminders.md",
+    "2 - Source Material/Docs/Nest JS.md",
+    "2 - Source Material/Docs",
     "6 - Zettelkasten/Fake Note.md",
     "5 - Templates/Main Note.md",
+    "Backend/General BE.md",
+    "Backend/Digital Ocean.md",
     "6 - Zettelkasten",
     "5 - Templates",
     "4 - Indexes",
-    "1 - Rough Notes/Reminders.md",
     "3 - Tags",
     "2 - Source Material/Other",
     "2 - Source Material/Books",
     "2 - Source Material/Videos",
     "2 - Source Material/Blogs",
     "2 - Source Material",
-    "1 - Rough Notes/Things to do today.md",
     "README.md",
-    "Untitled 1",
     "Backend/New Server Config.md",
     "Backend/Vim & Linux.md",
     "DS & Algo/Arrays and hashing/Arrays and hashing.md",
@@ -184,8 +186,6 @@
     "Front-end/images/lexical-scope.png",
     "Front-end/Web performance/General performance.md",
     "Front-end/Untitled.canvas",
-    "Front-end/JS/Promises.md",
-    "Front-end/JS/Javascript.md",
     "wd/Front-end/images/new.png",
     "wd/Front-end/images/new-this.png",
     "wd/Front-end/images/lexical-scope.png",
