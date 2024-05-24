@@ -25,7 +25,7 @@
 		- bitcoin - SHA256
 		- Ethereum - Keccak - 256
 		- private key is asymmetric encryption which is one way, which results in a longer key, hence why it is expensive method of encryption
-	- [[Backend/Digital Ocean]]
+	- [[Digital Ocean]]
 	- Internet
 		- iPv4 - 32 bits
 		- ipV6 - 128 bits
@@ -53,4 +53,4 @@
 		- CNAME - name to name
 		- tld (Top level domain) - actual domain (.com, .dev)
 		-  registrar - namecheap, godaddy etc
-	- [[Backend/New Server Config]]
+	- [[New Server Config]]

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d0d003b9a628a181",
+        "id": "ef139d304ee022b0",
         "type": "tabs",
         "children": [
           {
-            "id": "a674f0d84d9a18bb",
+            "id": "840d38f0bbe510b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/General BE.md",
+                "file": "Re-write/Backend/Vim & Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/General BE.md",
+                "file": "Re-write/Backend/Vim & Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/General BE.md",
+                "file": "Re-write/Backend/Vim & Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/General BE.md"
+                "file": "Re-write/Backend/Vim & Linux.md"
               }
             }
           }
@@ -146,45 +146,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a674f0d84d9a18bb",
+  "active": "840d38f0bbe510b1",
   "lastOpenFiles": [
-    "1 - Rough Notes/Nest and mongo.md",
-    "1 - Rough Notes/Things to do today.md",
+    "2 - Source Material/Web3 Full-Stack by Harkirat.md",
+    "6 - Zettelkasten/Javascript Fundamentals - Basics.md",
+    "3 - Tags/frontend.md",
+    "3 - Tags/programming-language.md",
+    "3 - Tags/backend.md",
+    "3 - Tags/javascript.md",
+    "2 - Source Material/Javascript Notes.md",
+    "Re-write/Backend/Digital Ocean.md",
+    "Re-write/Backend/General BE.md",
+    "Re-write/Backend/New Server Config.md",
+    "Re-write/Backend/Vim & Linux.md",
+    "Re-write",
     "1 - Rough Notes/Reminders.md",
-    "2 - Source Material/Docs/Nest JS.md",
-    "2 - Source Material/Docs",
+    "1 - Rough Notes/Things to do.md",
+    "6 - Zettelkasten/Javascript Fundamentals - Functions.md",
+    "Re-write/Front-end/JS/THIS.md",
+    "Re-write/Front-end/JS/Types.md",
+    "Re-write/Front-end/JS/Promises.md",
+    "Re-write/Front-end/JS/NEW.md",
+    "Re-write/Front-end/JS/Coercion.md",
+    "Re-write/Front-end/JS/Closures.md",
+    "Re-write/Front-end/JS/Async JS.md",
+    "Re-write/Front-end/JS/Classes and OOP.md",
     "6 - Zettelkasten/Fake Note.md",
-    "5 - Templates/Main Note.md",
-    "Backend/General BE.md",
-    "Backend/Digital Ocean.md",
+    "2 - Source Material/Youtube",
+    "2 - Source Material/Videos/Untitled.md",
+    "Re-write/Front-end/DX/Dev Exp.md",
+    "1 - Rough Notes/Nest and mongo.md",
+    "2 - Source Material/Docs",
     "6 - Zettelkasten",
     "5 - Templates",
     "4 - Indexes",
     "3 - Tags",
     "2 - Source Material/Other",
     "2 - Source Material/Books",
-    "2 - Source Material/Videos",
-    "2 - Source Material/Blogs",
-    "2 - Source Material",
-    "README.md",
-    "Backend/New Server Config.md",
-    "Backend/Vim & Linux.md",
-    "DS & Algo/Arrays and hashing/Arrays and hashing.md",
-    "DS & Algo/Arrays and hashing/Contains Duplicate.md",
-    "DS & Algo/Arrays and hashing/Two Sum.md",
-    "DS & Algo/Arrays and hashing/Valid Anagram.md",
-    "Front-end/CSS/Flex & Grid.md",
-    "DS & Algo/Untitled/Untitled.md",
-    "Front-end/JS/Async JS.md",
-    "Front-end/DX/Dev Exp.md",
-    "Front-end/React/React composition techniques.md",
-    "Front-end/JS/Types.md",
-    "Front-end/React/General react principles.md",
-    "Front-end/JS/Untitled.md",
-    "Front-end/React/Re-render sources.md",
-    "Front-end/JS/THIS.md",
-    "Front-end/images/lexical-scope.png",
-    "Front-end/Web performance/General performance.md",
+    "2 - Source Material/FEM",
+    "Re-write/Front-end/images/lexical-scope.png",
     "Front-end/Untitled.canvas",
     "wd/Front-end/images/new.png",
     "wd/Front-end/images/new-this.png",
@@ -192,8 +192,8 @@
     "wd/Front-end/images/class.png",
     "wd/Front-end/images/Untitled.png",
     "wd/Front-end/images/Moving state down.jpg",
-    "Front-end/images/Untitled.png",
-    "Front-end/images/Moving state down.jpg",
-    "Front-end/images/class.png"
+    "Re-write/Front-end/images/Untitled.png",
+    "Re-write/Front-end/images/Moving state down.jpg",
+    "Re-write/Front-end/images/class.png"
   ]
 }
