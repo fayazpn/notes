@@ -17,10 +17,10 @@ Other problem - Network traffic should always high
 - CNDs
 - HTTP Servers
 - DBs - postgres
-- Async arch/ workers
+- Async arch/ workers - one who talks to the block chain
 
 **Web3 parts**
-- wallet adapters
+- wallet adapters - connect buttons
 - Signing messages
 - Transactions and signing txns - debt & credit
 - Indexing blockchains - why and ideal acceptance of payments
@@ -28,5 +28,14 @@ Other problem - Network traffic should always high
 - Workers talking to blockchain
 
 **High-level system design**
-
+- Customer will upload thumbnails paying 'x' amount
+	- POST /task - store image in s3
+	- GET /task - getting polled by customers to check if it finished or not
+- User will get the thumbnails
+	- GET /nextTask
+	- POST /submission - click of preffered thumbnail
+	- GET /balance - the rewards that are earned
+	- POST /payout - checkout of balance
+- The money paid by the Customer is given in the wallet
+- The Users will checkout from the admin wallet
 
