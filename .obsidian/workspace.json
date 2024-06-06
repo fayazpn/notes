@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Source Material/Web3 Full-Stack by Harkirat.md",
+                "file": "2 - Source Material/Web3 - Full-Stack by Harkirat.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Source Material/Web3 Full-Stack by Harkirat.md",
+                "file": "2 - Source Material/Web3 - Full-Stack by Harkirat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Source Material/Web3 Full-Stack by Harkirat.md",
+                "file": "2 - Source Material/Web3 - Full-Stack by Harkirat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Source Material/Web3 Full-Stack by Harkirat.md"
+                "file": "2 - Source Material/Web3 - Full-Stack by Harkirat.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "840d38f0bbe510b1",
   "lastOpenFiles": [
+    "2 - Source Material/YT - 5 Systems to take back control of your mind in this digital age.md",
     "Re-write/Backend/Vim & Linux.md",
     "2 - Source Material/Web3 Full-Stack by Harkirat.md",
+    "2 - Source Material/Web3 - Full-Stack by Harkirat.md",
+    "2 - Source Material/FEM - JS - The hard parts.md",
+    "2 - Source Material/Daras - Lessons Tajweed.md",
+    "1 - Rough Notes/Memory Dump.md",
     "6 - Zettelkasten/Javascript Fundamentals - Basics.md",
     "3 - Tags/frontend.md",
     "3 - Tags/programming-language.md",
@@ -170,12 +175,7 @@
     "Re-write/Front-end/JS/Coercion.md",
     "Re-write/Front-end/JS/Closures.md",
     "Re-write/Front-end/JS/Async JS.md",
-    "Re-write/Front-end/JS/Classes and OOP.md",
-    "6 - Zettelkasten/Fake Note.md",
     "2 - Source Material/Youtube",
-    "2 - Source Material/Videos/Untitled.md",
-    "Re-write/Front-end/DX/Dev Exp.md",
-    "1 - Rough Notes/Nest and mongo.md",
     "2 - Source Material/Docs",
     "6 - Zettelkasten",
     "5 - Templates",
