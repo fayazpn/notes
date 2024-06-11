@@ -1,0 +1,5 @@
+[[Leetcode 242 - Valid Anagram]]
+[[Leetcode 217  - Contains Duplicate]]
+[[Leetcode 1 - Two Sum]]
+[[Leetcode 49 - Group Anagrams]]
+[[Leetcode 347 - Top K Frequent Elements]]
