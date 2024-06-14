@@ -3,3 +3,5 @@
 [[Leetcode 1 - Two Sum]]
 [[Leetcode 49 - Group Anagrams]]
 [[Leetcode 347 - Top K Frequent Elements]]
+[[Leetcode 659 - Encode and decode]]
+[[Leetcode 238 - Product of Array Except Self]]
