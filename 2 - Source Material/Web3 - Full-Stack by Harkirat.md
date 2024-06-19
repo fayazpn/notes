@@ -214,10 +214,30 @@ This a web2 + web 3 problem
 	- migrate the primsa - way of telling the db that new tables are added
 		- name the migrations
 - Support the following endpoints
-	- POST /signin
+	- POST */signin*
 		- create user & worker routers
 		- import to the index - '/v1/worker' - '/v1/user'
+			- /v1/user
+				- */signin* - add a sign verification logic
+					- jwt
+						- clients cannot be trusted
+						- jwt is created with a private key & secret
+					- use jwt to do so
+						- if username and password is right - it returns a jwt token from BE to FE
+						- all future requests, they will send the jwt back and the BE can confirm
+						- here we use address and signed_message then we return  a jwt 
+						- check with the prismaClient if user exists
+							- prisma.user.upsert (create/update data) -> not related
+							- check if the walletAddress is present in the DB
+							- if it is, then return the jwt signed userId as response
+							- else, create a user with walletAdresss
 	- GET /preSignedUrl
+		- how to expose an endpoint where user can upload
+		- add bucket name in PostObjectCommand and key -> specific folder
+		- add a authMiddleware which verify the JWT token
+			- jwt.verify the authHeader
+			- if decoded has userId then add it to the req before calling the next() in the end
+			- else return response with 403 status
 	- Let users upload the images through FE 1
 	- POST /task
 	- GET /task
@@ -236,6 +256,3 @@ This a web2 + web 3 problem
 - Create an RPC server on alchemy
 - Let the users request payouts, submit the payout on the blockchain and put the Txn signature in the DB
 - Write the worker that polls the DB and marks entries as succeeded/failed/processing 
-
-
-
