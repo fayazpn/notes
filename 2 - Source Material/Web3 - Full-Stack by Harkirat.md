@@ -5,16 +5,16 @@ Problem statement - Solving problems where there is a need of data-modelling for
 Other problem - Network traffic should always high
 
 **What to learn**
-- Upload photos or assets in s3 - uploading through multer can cause assets to get wiped if server dies & security resasons
+- Upload photos or assets in s3 - uploading through multer can cause assets to get wiped if server dies & security reasons
 - Pay through large web3 wallets
 - How to do this smart contract
 - Handling payouts - solving problems like double payments
-- Nextjs
+- Next.js
 
 **Web2 part**
 - s3/ object stores
 - Pre-signed URLS - to upload in s3
-- CNDs
+- CDNs
 - HTTP Servers
 - DBs - postgres
 - Async arch/ workers - one who talks to the block chain
@@ -22,7 +22,7 @@ Other problem - Network traffic should always high
 **Web3 parts**
 - wallet adapters - connect buttons
 - Signing messages
-- Transactions and signing txns - debt & credit
+- Transactions and signing Txns - debt & credit
 - Indexing blockchains - why and ideal acceptance of payments
 - RPCs
 - Workers talking to blockchain
@@ -58,7 +58,7 @@ Other problem - Network traffic should always high
 		- Bring from FE to BE
 		- Then BE dumps to the s3
 		- DONOT give password to the client, as user can tamper with it
-		- CON here is backend is doing a lot of heavy lifting
+		- Con here is backend is doing a lot of heavy lifting
 - Flow 3
 	- Pre-Signed URLS
 		- instead of giving the user the complete control of s3
@@ -90,12 +90,12 @@ This a web2 + web 3 problem
 **Allowing labelers to payout $s to their own wallet**
 - The labelers have their own frontend where they can do tasks and withdraw their cash
 - Their frontend will pull out the images from the DB that is stored in the s3
-- The usere of this FE will withdraw from from admin wallet
+- The users of this FE will withdraw from from admin wallet
 - There should be minimum threshold, where user can withdraw from the admin wallet ($10 after you reach, you can withdraw from the wallet)
 - Flow of withdraw
-	- The helper user will send the userId and wallet address
-	- Backend dont have browser wallets, the pop up is a frontend for the w3 wallet, we can access the private key
-	- We can use this private key and store it in the BE and send Txns through solana command line
+	- The *helper* / *labeler* user will send the userId and wallet address
+	- Backend don't have browser wallets, the pop up is a frontend for the w3 wallet, we can access the private key
+	- We can use this private key and store it in the BE and send Txns through Solana command line
 		- This is an INSECURE way of doing this, as we should not keep private key in the EC2 machine
 		- Proper way of doing it in the MPC architecture
 		- This will send the Txn to the RPC node
@@ -105,13 +105,13 @@ This a web2 + web 3 problem
 			- Once Txn is verified, we can deduce  from the balance
 			- Or retry the Txn if not successful
 			- Or revert the balance if failed
-			- This will be done by the *wroker/Txn Sweeper*
-		- The Worker is responsible for scheduling in bg if the 'blockhain clogging'
+			- This will be done by the *worker/Txn Sweeper*
+		- The Worker is responsible for scheduling in bg if the 'blockchain clogging'
 		- *GET /nextTask* end point gets the next task from the DB
-		- *POST /submission* submits the task reponse
+		- *POST /submission* submits the task response
 		- *GET /payout* is a highly asynchronous endpoint where 
-			- it submits to the solana chain the Txn on the chain
-			- Poll the Txn in DB which checks the blockchain and update the status like succeded, failed etc
+			- it submits to the Solana chain the Txn on the chain
+			- Poll the Txn in DB which checks the blockchain and update the status like succeeded, failed etc
 				- if succeeded then deduct from the balance of db
 				- if not then retry which will start the whole process again
 
@@ -142,16 +142,23 @@ This a web2 + web 3 problem
 		- origin access control settings - create a new one
 		- This will give you a policy
 		- so create an s3 bucket and serve content through the cloudfront
+			- cloudfront is cheaper
+			- More secure using 
+			- faster than accessing the s3 bucket by itself
 	- create pre-signed url
+		- create a user that have limited access
 		- backend can create a pre-signed url and supply to the user
 		- we can directly upload to s3 but it is NO
 		- goto IAM
 			- Users
-				- Create User
+				- Create User called *presignedGenerator* which has access to our bucket to create a pre signed url for the user to upload rather than uploading to s3 directly
+				- Only has programmatic access
 				- attach policies directly
 				- give Amazons3FullAccess or make narrower permissions
 				- create security creds where nodejs process can generate presignedUrl
 				- take credentials 
+					- AKS- I8UuGG5OHOII2JMKXSiaPMYas9pEahLmTfx7wo/O
+					- AKP - AKIA3FLDXTDRLMA3A7PY
 	- do not store aws creds in frontend
 - Create 2 frontends
 	- last parts
@@ -197,7 +204,7 @@ This a web2 + web 3 problem
 			- option_id Int - makes queries faster
 			- single task for each option
 			- will have many submissions
-	- (foreign key constraints, every Task will have options, means options will have task id related with it , and Task will have multiple tasks)
+	- (foreign key constraints, every Task will have options, means options will have task id related with it , and Task will have multiple options)
 	- every worker will create submissions
 		- model Submission 
 			- id

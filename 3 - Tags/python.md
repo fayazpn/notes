@@ -1,0 +1,1 @@
+[[Python Fundamentals - Rules of dictionary]]
