@@ -156,16 +156,17 @@ This a web2 + web 3 problem
 				- attach policies directly
 				- give Amazons3FullAccess or make narrower permissions
 				- create security creds where nodejs process can generate presignedUrl
-				- take credentials 
-					- AKS- I8UuGG5OHOII2JMKXSiaPMYas9pEahLmTfx7wo/O
-					- AKP - AKIA3FLDXTDRLMA3A7PY
+				- take credentials that we should put in the backend
+					- ``AKS- I8UuGG5OHOII2JMKXSiaPMYas9pEahLmTfx7wo/O``
+					- ``AKP - AKIA3FLDXTDRLMA3A7PY``
 	- do not store aws creds in frontend
 - Create 2 frontends
 	- last parts
 - Design the schema
 	- Postgres + prisma
 	- create the db in neon.tech
-	- get the cred where we can connect BE with DB
+	- `postgresql://thumbsdb_owner:tR7JUZnmNvu9@ep-polished-dew-a18497y2.ap-southeast-1.aws.neon.tech/thumbsdb?sslmode=require`
+	- get the credentials where we can connect BE with DB
 	- install prisma
 	- init prisma
 	- design the database with the schemas
