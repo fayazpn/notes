@@ -224,6 +224,7 @@ This a web2 + web 3 problem
 - Support the following endpoints
 	- POST */signin*
 		- create user & worker routers
+		- Most web3 application has login with wallet address
 		- import to the index - '/v1/worker' - '/v1/user'
 			- /v1/user
 				- */signin* - add a sign verification logic
@@ -238,8 +239,10 @@ This a web2 + web 3 problem
 							- prisma.user.upsert (create/update data) -> not related
 							- check if the walletAddress is present in the DB
 							- if it is, then return the jwt signed userId as response
-							- else, create a user with walletAdresss
+							- else, create a user with wallet Adress
+							- then return the jwt token
 	- GET /preSignedUrl
+	- 
 		- how to expose an endpoint where user can upload
 		- add bucket name in PostObjectCommand and key -> specific folder
 		- add a authMiddleware which verify the JWT token
