@@ -242,22 +242,81 @@ This a web2 + web 3 problem
 							- else, create a user with wallet Adress
 							- then return the jwt token
 	- GET /preSignedUrl
-	- 
 		- how to expose an endpoint where user can upload
 		- add bucket name in PostObjectCommand and key -> specific folder
 		- add a authMiddleware which verify the JWT token
 			- jwt.verify the authHeader
 			- if decoded has userId then add it to the req before calling the next() in the end
+			- Add decoded userId from the token to the request that can be used by the route
 			- else return response with 403 status
+		- Generate pre-signed url through PUT pre-signed method
 	- Let users upload the images through FE 1
 	- POST /task
+		-  Validate inputs from the user
+		- if inavlid return 411
+		- add express json middleware
+		- use zod for validation of the input in *types* file
+			- createTaskInput
+				- options - array of  of objects containing imageUrl
+				- title - string optional
+				- signature
+		- parse the data inside the route
+			- if not success return 411, wrong input
+			- else create the task
+				- Title should be optional in the schema
+				- options  - create a transaction (send 2 seperate quries together)
+					- tx => { await query task, await createMany}
+					- remove optionId from the transaction and migrate
 	- GET /task
+		- get task id from req
+		-  get userId
+		- find first with user_id and taskId
+		- if no task found return 'you dont have access to this task'
+		- findMany submission, and include the option with it
+		- create result object which has *count* and *option with imageUrl*
+		- iterate through the result and assign the count to 0
+		- iterate through the response and add up the total count
+		- return the result
 - Support the endpoints in the FE 2
 	- POST /signin
+		- same as user
+		- change the secret
+		- create middleware
 	- GET /nextTask
+		- find task that user hasn't made a submission
+		- get the userId
+		- findFirst task where
+			- where submission has no userId
+				- select title and options and id
+			- and done is false
+		- add done to Task schema
+		- if task is not found
+			- return that there is no more task left to review
+		- else return the task
 	- POST /submission
+		- we should control and check if the user deserves to submit the next task
+		- extract the logic of getting the nextTask into db.ts file
+		- we just pass userId into it
+		- createSubmissionInput
+			- taskId - string
+			- selection - string
+		- if parse is success
+		- check if task id of getNextTask is same as the submission taskId
+		- prevent user from letting user to make 2 submission and make money
+		- ass unique worker_id for a task_id
+		- create submission success case
+		- give amount of task amount/ total number of submissions
+		- return nextTask and amount
+		- make a prisma Tx
+			- first submission 
+			- update the pending amount
+			- store the amount in lamports 10^9
+			- lamports - do not store floats in db, we store in db as int, we can avoid a lot of precision errors
+			- 
 	- GET /balance
-	- POST /payout -> dummy for now
+		- findFirst
+	- POST /payout -> dummy for 
+		create Payouts schema
 ### Web3 bits
 
 - Let users sign in and link their wallet address to their account (signing messages)

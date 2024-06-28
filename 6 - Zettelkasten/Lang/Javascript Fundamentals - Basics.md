@@ -1,7 +1,7 @@
 
 2024-05-24 11:38
 
-Status: #child
+Status: #adult
 
 Tags: [[frontend]] [[programming-language]] [[backend]] [[3 - Tags/javascript|javascript]]
 
@@ -19,6 +19,14 @@ There are two parts in execution, *Global Memory & Execution Context*
 **Functions**  are first class objects in JS, i.e. it can be passed as arguments to other functions and returned from other function as its values
 **Higher Order Functions** are functions that takes other functions as its parameters or if it returns another function
 **Callback Function** - The functions that are provided as argument to another HOF 
+
+In programming, the **scope** is concept of what data is available in a given line of code. 
+
+**Lexically Scoped** - Means that the function has access to all the data surrounding to where the function was defined physically. Rather than where the function was invoked.
+
+A **scope chain** refers to the _unique_ spaces that exist from the scope where a variable got _called_ to the global scope.
+
+Another name of *Lexical Scope* is *Static Scope*
 
 
 

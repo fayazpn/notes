@@ -1,7 +1,7 @@
 
 2024-06-25 13:19
 
-Status: #child 
+Status: #adult
 
 Tags: [[backend]] [[aws]]
 
@@ -17,7 +17,10 @@ aws s3 presign s3://finance-department-bucket/2022/tax-certificate.pdf
 
 The result of running is
 
-``https://s3.amazonaws.com/finance-department-bucket/2022/tax-certificate.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3SGQVQG7FGA6KKA6%2F20221104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221104T140227Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b228dbec8c1008c80c162e1210e4503dceead1e4d4751b4d9787314fd6da4d55``
+```bash
+https://s3.amazonaws.com/finance-department-bucket/2022/tax-certificate.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3SGQVQG7FGA6KKA6%2F20221104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221104T140227Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b228dbec8c1008c80c162e1210e4503dceead1e4d4751b4d9787314fd6da4d55
+```
+
 
 This URL works even though the bucket is not public. That is basic idea of the pre-signed URL where the content is private by default and expose them in a limited controlled way when necessary
 
