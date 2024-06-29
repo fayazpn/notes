@@ -268,7 +268,7 @@ This a web2 + web 3 problem
 					- tx => { await query task, await createMany}
 					- remove optionId from the transaction and migrate
 	- GET /task
-		- get task id from req
+		- get task id from req query
 		-  get userId
 		- find first with user_id and taskId
 		- if no task found return 'you dont have access to this task'
@@ -289,6 +289,7 @@ This a web2 + web 3 problem
 			- where submission has no userId
 				- select title and options and id
 			- and done is false
+			- select iid, amount, title,  options
 		- add done to Task schema
 		- if task is not found
 			- return that there is no more task left to review

@@ -21,11 +21,11 @@ There are 2 main popular web servers
 `sudo apt install nginx` - to install
 `sudo service nginx start` - to start
 
-After this if we visit the ip, we get the nginx server
+After this if we visit the ip, we get the NGINX server
 
 # References
 
-
+FEM  - Full stack front-end
 
 
 

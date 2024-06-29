@@ -5,6 +5,8 @@ Status: #child
 
 Tags: [[backend]] [[programming-language]]
 
+- Most of the process will be in the `etc` file
+- `var` contains files that are used in run time
 
 ## Linux commands
 - `cat` - print
@@ -41,7 +43,7 @@ Tags: [[backend]] [[programming-language]]
 	- `r` - read
 	- `w` - write
 	- `x` - execute
-- `sudo vi /etc/ssh/sshd_config` - ssh deamon process that is running
+- `sudo vi /etc/ssh/sshd_config` - ssh daemon process that is running
 	- change the permission to 'no'
 	- After changing it to no, you will actually have root user, we are just disabling the root login permission
 - `sudo service ssh restart` - whenever a process is edited it needs to be re-started
@@ -55,6 +57,7 @@ Tags: [[backend]] [[programming-language]]
 - `:u` - undo the changes
 - `:q!` - force quit without saving
 - `echo $0` - name of your shell
+- In *NORMAL* mode just type `/` to search for certain string
 
 
 
