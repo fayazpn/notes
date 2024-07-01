@@ -36,7 +36,7 @@ There are two types of blockchains
 
 # References
 
-
+[[Smart Contracts 101]]
 
 
 

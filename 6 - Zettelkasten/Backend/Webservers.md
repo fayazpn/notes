@@ -26,6 +26,7 @@ After this if we visit the ip, we get the NGINX server
 # References
 
 FEM  - Full stack front-end
+[[NGINX Server Config]]
 
 
 

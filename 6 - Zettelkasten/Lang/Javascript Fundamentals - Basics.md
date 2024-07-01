@@ -38,6 +38,8 @@ Another name of *Lexical Scope* is *Static Scope*
 
 - Call Stack - https://developer.mozilla.org/en-US/docs/Glossary/Call_stack
 - FEM - Javascript: The Hard Parts, v2 - https://frontendmasters.com/courses/javascript-hard-parts-v2/
+- [[Javascript Fundamentals - Function Closures]]
+
 
  
 

@@ -16,12 +16,11 @@ Banks, governments, social-media are examples of the 'intermediaries' which we r
 
 **[[Centralized Structure]]** -  There are problems attache with these intermediaries, although they manage the money pretty well, the attached costs, being *single point of failure* as they stored in single data-centers and other socio-economic problems.
 
-[[What is a block-chain?]]
-
 
 
 # References
 
+[[What is a block-chain?]]
 
 
 

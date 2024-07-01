@@ -26,15 +26,7 @@ In Solana logic and state are stored separately, which makes Solana a highly per
 - *Data Accounts* - Accounts which holds the states
 
 
-## Transactions
-
-Transactions are like actions that are submitted to the network to get something done. Transactions includes different tasks to be done, these are called *instructions*, they also needs *signatures*, which is like an approval.
-
-
-
-
 # References
-
 
 
 

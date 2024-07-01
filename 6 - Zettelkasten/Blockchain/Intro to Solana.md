@@ -35,7 +35,10 @@ It is like a clock which establishes order of events. **PoH** generates time-sta
 In Solana, The PoH timestamps are used to enhance the security and efficiency of the PoS consensus. Validators can reference the PoH timestamps to ensure that the blocks they are validating are in the correct order, eliminating the need for additional consensus rounds. This integration of PoH and PoS enables Solana to achieve high transaction throughput, low latency, and overall scalability.
 
 # References
-
+[[Solana - Account Model]]
+[[Solana Transactions]]
+[[Solana Virtual Machine]]
+[[Solana Commands]]
 
 
 

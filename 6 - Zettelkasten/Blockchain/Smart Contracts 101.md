@@ -27,8 +27,7 @@ Example of vending machine, where you put a coin and expect the machine to give 
 
 
 # References
-
-
+[[Intro to Solana]]
 
 
 
