@@ -315,9 +315,21 @@ This a web2 + web 3 problem
 			- lamports - do not store floats in db, we store in db as int, we can avoid a lot of precision errors
 			- 
 	- GET /balance
-		- findFirst
+		- findFirst worker details
+		- return
+			- pending_amount
+			- locked_amount
 	- POST /payout -> dummy for 
 		create Payouts schema
+		- findFirst worker details
+		- if no user, return error message
+		- once user is found
+			- Create a transaction
+			- Create a in memory transaction
+			- Subtract from the pending amount
+			- Increment it into the locked amount
+			- return message to the user withdrawal has started
+			- Create a solana transaction
 ### Web3 bits
 
 - Let users sign in and link their wallet address to their account (signing messages)

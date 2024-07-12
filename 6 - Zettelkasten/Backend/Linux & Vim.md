@@ -96,7 +96,73 @@ Tags: [[backend]] [[programming-language]]
 - `:q!` - force quit without saving
 - `echo $0` - name of your shell
 - In *NORMAL* mode just type `/` to search for certain string
-
+- *CR* Means Enter Key - Character Return
+- Vim will remember the last cursor position
+- **Modes**
+	- i is *Insert* new text
+	- *Normal* mode is edit more
+		- Esc or Ctrl + c
+	- *Visual* mode is for highlighting text
+	- *:* is command mode for executing command
+- `x` - delete single character
+- `zz` - centers the screen
+- `hjkl` - movement keys
+- `w` - hop by word to start of non white space word
+- `dd/ shift + v+d` - delete a line
+- `u` - undo
+- *yank* - to copy to location, it will not goto system clipboard
+- `yyp` - yank and paste below
+- `yyP` - yank and paste above
+- `V` - select the linew
+- `V + y / p` - yanks and pastes the visual region
+- `d` - delete the selected items in visual mode
+- deleted items can be pasted with `p`
+- `:reg` - is history of yanked or deleted 
+- `i` - insert inside
+- `a` - insert outside
+- `I` - first non whitespace character in start
+- `A` - end of the line with or without whitespace
+- `o` - insert mode below the cursor
+- `O` - insert mode above the cursor
+- `:set scrolloff=8` - scroll view
+- `7dd`- delete 7 lines
+- `:set number` - sets the number line
+- `:set relative` - sets relative number line
+- `init.vim` - config for neovim
+- `:h option` - gets the help menu of the option
+- `:h ctrld + D` - popup menu
+	- ` tab`
+		- `Ctrl n` - navigate menu options
+		- `Ctrl p`
+- `G` - goto bottom
+- `gg` - goto top
+- `vim` - opens folder in vim
+- `:Ex` - explore, open another file on the same buffer
+- `:Vex` - vertical explore
+- `:Sex` - Split explore
+- `Ctrl + w` - new window option
+	- `+ l` - move to the left window
+	- `+ r` -  move to the right window
+	- `+ s` -  split navigate
+	- `+ v` - vertical navigate
+	- `+ O` - closes all the window except the current buffer
+- `mapleader` - placeholder for the key
+- `nnoremap` - 
+	- `n` - mode like insert *i*, command *c*, terminal *t*
+	- `nore` - non recursively
+	- `map` - covention to map the right aside to the left command 
+	- `:so %` - source the file and re-execute the vimrc in the current buffer (*%*)
+- Edit
+	- `:e` - with `Ctrl + D` gives menu where we can goto the file directly
+- Mark
+	- `m + <Capital Letter>` - to mark a point in the code
+	- `' + <Capital Letter>` - to naviagate to the marked point
+	- Lower case - is for buffer level marks
+- `:reg` - register of all the executed commands
+	- `%` - current file
+	- `#` - previous file
+- `Ctrl + 6` - alt file switcher from the register - used when editing two files
+- `Ctrl + o` - Jumplist, where you navigate back to where you come from
 # References
 chmod cheatsheet - https://quickref.me/chmod
 

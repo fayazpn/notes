@@ -26,7 +26,7 @@ Tags: [[backend]]
 	3. We should create a *virtual configuration* file which establishes control between NGINX and node.js, so that when NGINX receives a request, it identifies and routes to the node.js app, we need to proxy NGINX to the NodeJS server
 	4. Create a proxy
 		1. `sudo vi /etc/nginx/sites-enabled/fsfe`
-```c
+```bash
 server {
 
         listen 80 default_server;
@@ -65,6 +65,13 @@ To restart the node.js app when events like server reboot, we can config through
 	- NOTE: this is different from default config
 - Config in `nginx.conf`
 
+### WebSocket
+```
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
+```
+This is applied in `/etc/nginx/sites-enabled/fsfe`
+in the `location / {}`
 # References
 [[Server Security]]
 

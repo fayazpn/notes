@@ -1,4 +1,11 @@
-- Harikirat web3
-- Clean Architecture
+- Web 3 video full stack
+- Join co-hort
+- AI Hackathon
+- Learn go lang
+- Toxy App
 - FEM
-- Leetcode
+- Apply for jobs
+- Read Quran
+- Exercise
+- Calyptus Web3
+- implementing clean architecture in nextjs
