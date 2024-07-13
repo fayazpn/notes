@@ -41,6 +41,8 @@ There are 3 types in Go for list, in which all are key-value pairs collections
 
 # References
 [[Go Fundamentals - Variables]]
+[[Go Fundamentals - Operators]]
+[[Go Fundamentals - Value versus pointer]]
 
 
 
