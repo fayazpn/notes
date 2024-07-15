@@ -43,6 +43,12 @@ There are 3 types in Go for list, in which all are key-value pairs collections
 [[Go Fundamentals - Variables]]
 [[Go Fundamentals - Operators]]
 [[Go Fundamentals - Value versus pointer]]
+[[Go Fundamentals - Constants]]
+[[Go Fundamentals - Enums]]
+[[Go Fundamentals - Scope]]
+[[Go Fundaments - Command and Control]]
+[[Go Fundamentals - Loops & Goto]]
+
 
 
 
