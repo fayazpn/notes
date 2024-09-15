@@ -1,0 +1,6 @@
+[[NextJS Basics]]
+[[NextJS Styling]]
+[[NextJS Rendering]]
+[[NextJS Navigation]]
+[[NextJS Layout and Templates]]
+[[NextJS Data Handling]]

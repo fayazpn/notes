@@ -40,7 +40,7 @@ There are times where we need to use all parts of the declaration, as go won't b
 `var seed int64 = 123123123123123`
 
 
-**Declaring the variable inside the function** - If the variable declaration is inside the function, we can use the short hand expression of `:-`
+**Declaring the variable inside the function** - If the variable declaration is inside the function, we can use the short hand expression of `:=`
 
 **Short hand declaration for multiple variables** - `Debug, LogLevel, startUpTime := false, "info", time.Now()`
 
