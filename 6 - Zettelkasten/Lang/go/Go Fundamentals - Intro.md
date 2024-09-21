@@ -48,6 +48,8 @@ There are 3 types in Go for list, in which all are key-value pairs collections
 [[Go Fundamentals - Scope]]
 [[Go Fundaments - Command and Control]]
 [[Go Fundamentals - Loops & Goto]]
+[[Go Fundamentals - Core Types]]
+[[Go Fundamentals - Complex Types]]
 
 
 

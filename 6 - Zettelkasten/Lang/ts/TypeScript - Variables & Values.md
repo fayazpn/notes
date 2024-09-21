@@ -3,7 +3,7 @@
 
 Status: #child 
 
-Tags: [[typescript]]
+Tags: [[typescript]] [[programming-language]]
 
 # TypeScript - Variables & Values
 

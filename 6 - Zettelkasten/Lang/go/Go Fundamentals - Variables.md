@@ -24,7 +24,7 @@ example `var foo string = "bar"`
 `string` -  the type of the variable
 `bar` -  the initial value
 
-if a variable is defined outside any function, then that is *package level variable defenition*
+if a variable is defined outside any function, then that is *package level variable definition*
 
 **Declaring multiple variable at once with var** - 
 - This method is common when declaring package level variable, variables not need to be of the same type, they all can have their own initial values
@@ -35,7 +35,7 @@ if a variable is defined outside any function, then that is *package level varia
 There are times where we need to use all parts of the declaration, as go won't be able to guess the correct type.
 
 `var seed = 1234455454234`
-`rand.NewSource(seed)` - > thows error as seed cannot be a an `int` but an `int64`
+`rand.NewSource(seed)` - > throws error as seed cannot be a an `int` but an `int64`
 
 `var seed int64 = 123123123123123`
 
@@ -44,7 +44,8 @@ There are times where we need to use all parts of the declaration, as go won't b
 
 **Short hand declaration for multiple variables** - `Debug, LogLevel, startUpTime := false, "info", time.Now()`
 
-**Using var to declare multiple variables on the same line** - `var start, middle, end float32` , `var name, left, right, top, bottom = "one", 1, 1.5, 2, 2.5`
+**Using var to declare multiple variables on the same line** - `var start, middle, end float32` 
+`var name, left, right, top, bottom = "one", 1, 1.5, 2, 2.5`
 - When using this, if defining the type, all var should be single type
 - When assigning values, the type will be taken from the literal value
 

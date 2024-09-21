@@ -17,7 +17,6 @@ Tags: [[programming-language]] [[go]]
 
 ```go
 constant <name> <type> = <value>
-
 ```
 
 # References

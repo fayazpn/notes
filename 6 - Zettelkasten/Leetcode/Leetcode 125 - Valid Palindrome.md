@@ -1,9 +1,9 @@
 
 2024-09-15 12:18
 
-Status: #child 
+Status: #easy 
 
-Tags: [[ds algo]] [[algorithm]] [[two pointers]]
+Tags: [[ds algo]]  [[two pointers]]
 
 # Leetcode 125 - Valid Palindrome
 

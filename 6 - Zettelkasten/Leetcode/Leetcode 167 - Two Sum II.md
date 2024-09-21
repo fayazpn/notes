@@ -1,9 +1,9 @@
 
 2024-09-14 23:58
 
-Status: #child 
+Level: #medium 
 
-Tags: [[ds algo]] [[algorithm]] [[two pointers]]
+Tags: [[ds algo]] [[two pointers]]
 
 # Leetcode 167 - Two Sum II
 
