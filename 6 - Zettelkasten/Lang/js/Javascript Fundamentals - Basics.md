@@ -3,7 +3,7 @@
 
 Status: #adult
 
-Tags: [[frontend]] [[programming-language]] [[backend]] [[3 - Tags/javascript|javascript]]
+Tags:  [[programming-language]] [[3 - Tags/javascript|javascript]]
 
 # JS
 

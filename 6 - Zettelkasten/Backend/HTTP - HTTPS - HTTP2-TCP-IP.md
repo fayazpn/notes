@@ -41,6 +41,18 @@ Gives free SSL certificate to
 - HTTP2 can do multiple req-res in one cycle
 
 
+### IP
+- Program sends message with *header* and *body*
+- Unreliable about the delivery and about the order in which transmitted 
+### TCP
+- Reliable delivery
+- Ordered delivery - received packets are ordered upon receiving 
+- Two way channel between the client and server, identified with IP address and ports
+- 3 steps process to establish the connection
+- HTTP is build on top TCP/IP
+
+
+
 # References
 
 
