@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "ef139d304ee022b0",
+        "id": "4ed75e04984b6f6a",
         "type": "tabs",
         "children": [
           {
-            "id": "840d38f0bbe510b1",
+            "id": "5e68b4464c86e9d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Source Material/Web3 - Full-Stack by Harkirat.md",
+                "file": "1 - Rough Notes/Reminders.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Reminders"
+            }
+          },
+          {
+            "id": "e6e95f43d792efc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Rough Notes/Reminders - CR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reminders - CR"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,8 +55,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +74,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Source Material/Web3 - Full-Stack by Harkirat.md",
+                "file": "1 - Rough Notes/Reminders - CR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +117,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Reminders - CR"
             }
           },
           {
@@ -102,10 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Source Material/Web3 - Full-Stack by Harkirat.md",
+                "file": "1 - Rough Notes/Reminders - CR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Reminders - CR"
             }
           },
           {
@@ -115,8 +143,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Source Material/Web3 - Full-Stack by Harkirat.md"
-              }
+                "file": "1 - Rough Notes/Reminders - CR.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Reminders - CR"
             }
           }
         ]
@@ -138,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -146,15 +184,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "840d38f0bbe510b1",
+  "active": "7c21e7870f0415e2",
   "lastOpenFiles": [
     "2 - Source Material/YT - 5 Systems to take back control of your mind in this digital age.md",
-    "Re-write/Backend/Vim & Linux.md",
-    "2 - Source Material/Web3 Full-Stack by Harkirat.md",
-    "2 - Source Material/Web3 - Full-Stack by Harkirat.md",
+    "1 - Rough Notes/Reminders - CR.md",
+    "1 - Rough Notes/Reminders.md",
+    "1 - Rough Notes/Memory Dump.md",
+    "6 - Zettelkasten/Backend/Linux & Vim.md",
+    "6 - Zettelkasten/Backend/Databases.md",
+    "6 - Zettelkasten/Backend/Server - Web Sockets.md",
+    "6 - Zettelkasten/Backend/CICD.md",
+    "6 - Zettelkasten/Backend/AWS Types of Pre-signed URLS.md",
+    "6 - Zettelkasten/Backend/AWS Pre-signed URLS.md",
+    "2 - Source Material/Remote Job Primer.md",
+    "2 - Source Material/Redis Crash Course.md",
+    "2 - Source Material/NextJS YT.md",
     "2 - Source Material/FEM - JS - The hard parts.md",
     "2 - Source Material/Daras - Lessons Tajweed.md",
-    "1 - Rough Notes/Memory Dump.md",
+    "1 - Rough Notes/Things to research.md",
+    "2 - Source Material/Web3 - Full-Stack by Harkirat.md",
+    "Re-write/Backend/Vim & Linux.md",
+    "2 - Source Material/Web3 Full-Stack by Harkirat.md",
     "6 - Zettelkasten/Javascript Fundamentals - Basics.md",
     "3 - Tags/frontend.md",
     "3 - Tags/programming-language.md",
@@ -162,19 +212,7 @@
     "3 - Tags/javascript.md",
     "2 - Source Material/Javascript Notes.md",
     "Re-write/Backend/Digital Ocean.md",
-    "Re-write/Backend/General BE.md",
-    "Re-write/Backend/New Server Config.md",
     "Re-write",
-    "1 - Rough Notes/Reminders.md",
-    "1 - Rough Notes/Things to do.md",
-    "6 - Zettelkasten/Javascript Fundamentals - Functions.md",
-    "Re-write/Front-end/JS/THIS.md",
-    "Re-write/Front-end/JS/Types.md",
-    "Re-write/Front-end/JS/Promises.md",
-    "Re-write/Front-end/JS/NEW.md",
-    "Re-write/Front-end/JS/Coercion.md",
-    "Re-write/Front-end/JS/Closures.md",
-    "Re-write/Front-end/JS/Async JS.md",
     "2 - Source Material/Youtube",
     "2 - Source Material/Docs",
     "6 - Zettelkasten",

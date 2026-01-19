@@ -1,0 +1,4 @@
+- Research the replicate trade feature
+- Research on Pill
+- Finish the Pairs bug on production
+- Check sentry errors

@@ -1,0 +1,5 @@
+- gkcs AI course (There is end date)
+- Harkerat course (Can expire)
+- Golang course (Paying every month waste)
+- Islamic studies course (Dunya)
+- 
