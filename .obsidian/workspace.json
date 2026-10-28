@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4ed75e04984b6f6a",
+        "id": "7378983570afceb4",
         "type": "tabs",
         "children": [
           {
-            "id": "5e68b4464c86e9d5",
+            "id": "b942ba5aa201884a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough Notes/Reminders.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reminders"
-            }
-          },
-          {
-            "id": "e6e95f43d792efc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Rough Notes/Reminders - CR.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reminders - CR"
+              "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -56,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -70,7 +57,7 @@
               "state": {
                 "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -93,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 437.5
   },
   "right": {
     "id": "8df9bbbeadcf6bbd",
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Rough Notes/Reminders - CR.md",
+                "file": "6 - Zettelkasten/Trading Systems/Order Types/Time Pace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Reminders - CR"
+              "title": "Backlinks for Time Pace"
             }
           },
           {
@@ -128,12 +115,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Rough Notes/Reminders - CR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Reminders - CR"
+              "title": "Outgoing links"
             }
           },
           {
@@ -143,7 +129,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -157,21 +143,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Rough Notes/Reminders - CR.md",
+                "file": "6 - Zettelkasten/Trading Systems/Order Types/Time Pace.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Reminders - CR"
+              "title": "Outline of Time Pace"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,54 +170,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c21e7870f0415e2",
+  "active": "b942ba5aa201884a",
   "lastOpenFiles": [
-    "2 - Source Material/YT - 5 Systems to take back control of your mind in this digital age.md",
-    "1 - Rough Notes/Reminders - CR.md",
-    "1 - Rough Notes/Reminders.md",
-    "1 - Rough Notes/Memory Dump.md",
-    "6 - Zettelkasten/Backend/Linux & Vim.md",
-    "6 - Zettelkasten/Backend/Databases.md",
-    "6 - Zettelkasten/Backend/Server - Web Sockets.md",
-    "6 - Zettelkasten/Backend/CICD.md",
-    "6 - Zettelkasten/Backend/AWS Types of Pre-signed URLS.md",
-    "6 - Zettelkasten/Backend/AWS Pre-signed URLS.md",
-    "2 - Source Material/Remote Job Primer.md",
-    "2 - Source Material/Redis Crash Course.md",
-    "2 - Source Material/NextJS YT.md",
-    "2 - Source Material/FEM - JS - The hard parts.md",
-    "2 - Source Material/Daras - Lessons Tajweed.md",
-    "1 - Rough Notes/Things to research.md",
-    "2 - Source Material/Web3 - Full-Stack by Harkirat.md",
-    "Re-write/Backend/Vim & Linux.md",
-    "2 - Source Material/Web3 Full-Stack by Harkirat.md",
-    "6 - Zettelkasten/Javascript Fundamentals - Basics.md",
-    "3 - Tags/frontend.md",
-    "3 - Tags/programming-language.md",
-    "3 - Tags/backend.md",
-    "3 - Tags/javascript.md",
-    "2 - Source Material/Javascript Notes.md",
-    "Re-write/Backend/Digital Ocean.md",
-    "Re-write",
-    "2 - Source Material/Youtube",
-    "2 - Source Material/Docs",
-    "6 - Zettelkasten",
-    "5 - Templates",
-    "4 - Indexes",
-    "3 - Tags",
-    "2 - Source Material/Other",
-    "2 - Source Material/Books",
-    "2 - Source Material/FEM",
+    "Private/CoinRoutes/Order table investigation.md",
+    "Private/CoinRoutes/Order creation investigation.md",
+    "Using this vault.md",
+    "Daily/2026-10-28.md",
+    "Home.md",
+    "Templates/Daily.md",
+    "Templates/Note.md",
+    "Inbox/Capture.md",
+    "Notes/JavaScript/Objects and properties.md",
+    "Notes/JavaScript/Modules and errors.md",
+    "Notes/JavaScript/Execution and scope.md",
+    "Notes/JavaScript/Equality coercion and defaults.md",
+    "Notes/JavaScript/Closures.md",
+    "Notes/JavaScript/Arrays and iteration.md",
+    "Notes/Life/Learning priorities.md",
+    "Notes/Life/Model gateway project plan.md",
+    "Notes/Life/Remote job search checklist.md",
+    "Notes/Life/Event processing service plan.md",
+    "Notes/Life/Backend learning route.md",
+    "Notes/DSA/Contains duplicate.md",
+    "Notes/DSA/Container with most water.md",
+    "Notes/DSA/C++ standard containers.md",
+    "Notes/Blockchain/Solana accounts and execution.md",
+    "Notes/Blockchain/Smart contracts.md",
+    "Notes/Blockchain/Proof of History.md",
+    "Notes/Blockchain/Double spending.md",
+    "Attachments/React/local-state.jpg",
+    "Attachments/React",
+    "Attachments/JavaScript/ordinary-function-this.png",
+    "Attachments/JavaScript/new-and-prototype.png",
+    "Attachments/JavaScript/class-and-constructor.png",
+    "Attachments/JavaScript/arrow-function-this.png",
+    "Attachments/JavaScript",
+    "Private/CoinRoutes",
+    "Notes/Trading",
+    "Notes/Systems",
+    "Notes/JavaScript",
+    "Notes/Blockchain",
+    "Notes/Life",
+    "Notes/DSA",
+    "Notes/Rust",
+    "Untitled.canvas",
+    "new-notes/Attachments/out-of-control.jpg",
+    "kepano-obsidian-main/Attachments/out-of-control.jpg",
+    "Untitled 1.canvas",
     "Re-write/Front-end/images/lexical-scope.png",
     "Front-end/Untitled.canvas",
     "wd/Front-end/images/new.png",
-    "wd/Front-end/images/new-this.png",
-    "wd/Front-end/images/lexical-scope.png",
-    "wd/Front-end/images/class.png",
-    "wd/Front-end/images/Untitled.png",
-    "wd/Front-end/images/Moving state down.jpg",
-    "Re-write/Front-end/images/Untitled.png",
-    "Re-write/Front-end/images/Moving state down.jpg",
-    "Re-write/Front-end/images/class.png"
+    "wd/Front-end/images/new-this.png"
   ]
 }

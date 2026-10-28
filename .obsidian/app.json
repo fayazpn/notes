@@ -1,5 +1,10 @@
 {
   "newFileLocation": "folder",
-  "newFileFolderPath": "6 - Zettelkasten",
-  "alwaysUpdateLinks": true
+  "newFileFolderPath": "Inbox",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Attachments",
+  "openBehavior": "file:Home.md",
+  "userIgnoreFilters": [
+    "Templates/"
+  ]
 }
