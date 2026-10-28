@@ -1,5 +1,10 @@
 # Home
 
+> [!tip] Color key
+> ==🟢Takeaway== · ==🟠Question / next action== · ==🔴Pitfall== · ==🟣Idea== · ==🔵Reference==
+>
+> [[Using this vault#11. Colors and visual tools|Colors and visual tools: quick guide]]
+
 ## Write
 
 - [[Inbox/Capture|Inbox]] — unfinished thoughts and questions.

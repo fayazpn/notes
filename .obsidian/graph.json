@@ -5,14 +5,141 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#review",
+      "color": {
+        "a": 1,
+        "rgb": 13716801
+      }
+    },
+    {
+      "query": "tag:#question",
+      "color": {
+        "a": 1,
+        "rgb": 14315564
+      }
+    },
+    {
+      "query": "path:\"Home.md\" OR path:\"Using this vault.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 13218815
+      }
+    },
+    {
+      "query": "path:\"Notes/Python/\" OR path:\"Maps/Python.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 15315267
+      }
+    },
+    {
+      "query": "path:\"Notes/Go/\" OR path:\"Maps/Go.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 3844511
+      }
+    },
+    {
+      "query": "path:\"Notes/Rust/\" OR path:\"Maps/Rust.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 14315564
+      }
+    },
+    {
+      "query": "path:\"Notes/JavaScript/\" OR path:\"Maps/JavaScript.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 13672981
+      }
+    },
+    {
+      "query": "path:\"Notes/TypeScript/\" OR path:\"Maps/TypeScript.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 4425150
+      }
+    },
+    {
+      "query": "path:\"Notes/Web/\" OR path:\"Maps/Web development.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 10846434
+      }
+    },
+    {
+      "query": "path:\"Notes/DSA/\" OR path:\"Maps/DSA.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 13716801
+      }
+    },
+    {
+      "query": "path:\"Notes/Systems/\" OR path:\"Maps/Systems.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 8886841
+      }
+    },
+    {
+      "query": "path:\"Notes/Machine learning/\" OR path:\"Maps/Machine learning.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 13524375
+      }
+    },
+    {
+      "query": "path:\"Notes/Blockchain/\" OR path:\"Maps/Blockchain.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 9150184
+      }
+    },
+    {
+      "query": "path:\"Notes/Trading/\" OR path:\"Maps/Trading.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 5091214
+      }
+    },
+    {
+      "query": "path:\"Notes/Life/\" OR path:\"Maps/Life and ideas.md\" OR path:\"Notes/Reading/\"",
+      "color": {
+        "a": 1,
+        "rgb": 13218815
+      }
+    },
+    {
+      "query": "path:\"Private/\" OR path:\"Maps/CoinRoutes.md\"",
+      "color": {
+        "a": 1,
+        "rgb": 9150184
+      }
+    },
+    {
+      "query": "path:\"Inbox/\"",
+      "color": {
+        "a": 1,
+        "rgb": 14315564
+      }
+    },
+    {
+      "query": "path:\"Maps/\"",
+      "color": {
+        "a": 1,
+        "rgb": 13218815
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,

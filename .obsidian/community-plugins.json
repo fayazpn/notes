@@ -2,5 +2,10 @@
   "obsidian-git",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-minimal-settings",
-  "maps"
+  "maps",
+  "iconic",
+  "obsidian-style-settings",
+  "editing-toolbar",
+  "extended-graph",
+  "obsidian-excalidraw-plugin"
 ]

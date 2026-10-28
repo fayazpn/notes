@@ -202,3 +202,60 @@ A push sends committed changes. A note that has only been saved locally is not u
 The standing instruction is to make no commits or pushes, so those actions have not been run. If daily sync is enabled later, it will need to commit changes as well as push them. The Obsidian plugin runs while Obsidian is running; it cannot guarantee a scheduled upload while the app is closed.
 
 [Git plugin automation](https://publish.obsidian.md/git-doc/Features)
+
+## 11. Colors and visual tools
+
+### Highlight text
+
+Type `==` and choose a color, or use one of these examples:
+
+```markdown
+==🟢Key takeaway==
+==🟠Question or next action==
+==🔴Pitfall or error==
+==🟣Idea to explore==
+==🔵Reference==
+```
+
+==🟢Key takeaway== · ==🟠Question or next action== · ==🔴Pitfall or error== · ==🟣Idea to explore== · ==🔵Reference==
+
+Place the cursor inside a highlight and click its color swatch to change the color. Plain `==text==` uses the theme's default highlight color.
+
+See the examples in [[Notes/JavaScript/Event loop|Event loop]], [[Notes/Rust/Borrowing and mutability|Borrowing and mutability]], [[Inbox/Capture|Capture]], and [[Inbox/Tasks|Tasks]].
+
+### Color the letters themselves
+
+Select a short phrase in editing mode. In the floating Editing Toolbar, hover over **Font Colors** (the palette button) to reveal the color grid, then click a swatch. Clicking the main button applies the current color. Use **Clear formatting** (the eraser) to remove formatting.
+
+For a simple manual example:
+
+```html
+<span style="color: #4385be;">Reference text</span>
+```
+
+<span style="color: #4385be;">Reference text</span>
+
+Use text color for short labels. Use the native highlights above for key passages; their color is saved directly in Markdown. Text colors use inline HTML, which is visible in Source mode.
+
+### Read and change graph colors
+
+Open **Graph view → settings → Groups**. Each group has a search query and a colored circle. Click the circle to change its color, or choose **New group** to add one.
+
+The graph uses your existing subject folders and matching maps. For example:
+
+```text
+path:"Notes/Go/" OR path:"Maps/Go.md"
+```
+
+Go is teal, Python is gold, Rust is orange, JavaScript is yellow, TypeScript is blue, Web is purple, Systems is olive, DSA is red, and Machine learning is pink. Inbox is orange. Notes with `#review` take red and notes with `#question` take orange before the subject groups are applied. A note matching several groups uses the first matching group; drag groups to change their priority.
+
+The same subject colors and icons appear in the sidebar. Iconic's rules also apply to new notes in those subject folders. Right-click a file or folder and choose **Change icon** to customize it; use Iconic's rulebook if a subject rule is overriding your choice.
+
+### Adjust the look or draw an idea
+
+- **Style Settings:** change Minimal's heading colors, fonts, spacing, and graph defaults under Settings → Style Settings.
+- **Minimal Theme Settings:** colorful headings and active states are enabled.
+- **Extended Graph:** adds graph controls, focused-node emphasis, and links that follow node colors. Use the graph's Extended Graph toggle to switch its enhancements on or off.
+- **Excalidraw:** open the command palette and search for **Excalidraw: Create new drawing** to sketch a diagram. Link it to a subject note when it helps explain the idea.
+
+[Highlight syntax](https://obsidian.md/help/syntax) · [Graph groups](https://obsidian.md/help/plugins/graph) · [Minimal customization](https://minimal.guide/plugins/style-settings)

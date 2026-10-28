@@ -6,5 +6,6 @@
   "openBehavior": "file:Home.md",
   "userIgnoreFilters": [
     "Templates/"
-  ]
+  ],
+  "promptDelete": false
 }

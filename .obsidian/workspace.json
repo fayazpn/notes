@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7378983570afceb4",
+        "id": "2fa8633b8935d577",
         "type": "tabs",
         "children": [
           {
-            "id": "b942ba5aa201884a",
+            "id": "d4dffb0bbacdac68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Inbox/Capture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Capture"
             }
           }
         ]
@@ -161,6 +161,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "iconic:Open rulebook": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -170,16 +172,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b942ba5aa201884a",
+  "active": "d4dffb0bbacdac68",
   "lastOpenFiles": [
+    "Home.md",
+    "Inbox/Tasks.md",
+    "Inbox/Capture.md",
+    "Daily/2026-10-28.md",
+    "Inbox/Untitled 1.base",
+    "Inbox/Untitled.base",
+    "README.md",
     "Private/CoinRoutes/Order table investigation.md",
     "Private/CoinRoutes/Order creation investigation.md",
     "Using this vault.md",
-    "Daily/2026-10-28.md",
-    "Home.md",
     "Templates/Daily.md",
     "Templates/Note.md",
-    "Inbox/Capture.md",
     "Notes/JavaScript/Objects and properties.md",
     "Notes/JavaScript/Modules and errors.md",
     "Notes/JavaScript/Execution and scope.md",
@@ -196,8 +202,6 @@
     "Notes/DSA/C++ standard containers.md",
     "Notes/Blockchain/Solana accounts and execution.md",
     "Notes/Blockchain/Smart contracts.md",
-    "Notes/Blockchain/Proof of History.md",
-    "Notes/Blockchain/Double spending.md",
     "Attachments/React/local-state.jpg",
     "Attachments/React",
     "Attachments/JavaScript/ordinary-function-this.png",
@@ -211,8 +215,6 @@
     "Notes/JavaScript",
     "Notes/Blockchain",
     "Notes/Life",
-    "Notes/DSA",
-    "Notes/Rust",
     "Untitled.canvas",
     "new-notes/Attachments/out-of-control.jpg",
     "kepano-obsidian-main/Attachments/out-of-control.jpg",
