@@ -8,12 +8,7 @@ When useful: explain the idea in a subject note, turn it into a task, or delete 
 
 ## Captures
 
-- account_info() -> fails /user-info *then calls* self.warning(...) 
-- class KucoinWebsocketLine has no *warning* attr (dont know what warning attribute) - *account-info* task raises ==🔴**AttributeError**== every 300s 
-- no cooldown on spot handler 400003 (==🔴API Key/ site mismatch==) - *line_task_main* retries ==bullet-private==, 
-	- ==🟠what is *bullet-private*==
-	- 
-
+- KuCoin ticket notes moved to [[Private/CoinRoutes/KuCoin error handling investigation|KuCoin error handling investigation]]. Continue the code trace, reading follow-ups, and ticket-specific questions there.
 
 ## Questions to explore
 

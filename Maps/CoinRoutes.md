@@ -6,6 +6,7 @@ Start with one concrete question, record exact evidence, and then explain the ve
 
 ## Investigations
 
+- [[Private/CoinRoutes/KuCoin error handling investigation|KuCoin error handling investigation]]
 - [[Private/CoinRoutes/Order creation investigation|Order creation investigation]]
 - [[Private/CoinRoutes/Order table investigation|Order table investigation]]
 
